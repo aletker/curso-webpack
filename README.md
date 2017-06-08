@@ -1,49 +1,50 @@
-# curso react redux
+Curso React Redux
+===================
 
-# anotações:
+anotações:
+----------
 
-npm i --save-dev webpack@1.14.0 webpack-dev-server@1.16.2
+ * Instalações das dependências de webpack e react
+ * Execuções e procedimenttos
+ 
 
-./node_modules/.bin/webpack
+Anotações referentes ao urso de react e redux da udemy
 
-npm i --save-dev babel-core@6.22.1 babel-loader@6.2.10 babel-preset-es2015@6.22.0
 
-npm i --save-dev babel-plugin-transform-object-rest-spread@6.22.0
+ * webpack
+ * react
+ * redux
 
-# configurações
-Inicializar o packege json: npm init -y
-Dependências:
-npm install --save-dev react@15.4.2 react-dom@15.4.2 babel-core@6.22.1 babel-loader@6.2.10 babel-preset-es2015@6.22.0 babel-preset-react@6.22.0 webpack@1.14.0 webpack-dev-server@1.16.2
+#### <i class="icon-file"></i> Configurações Dependências
 
-#GIT
+#### Instalação dependências webpack de acordo com as versões utilizadas no curso
+```sh
+$ npm i --save-dev webpack@1.14.0 webpack-dev-server@1.16.2
+```
 
-Estados
+#### Executar webpack para criar os arquivos referenciados no `webpack.config.js`:
+```sh
+$ ./node_modules/.bin/webpack
+```
 
-Modificado (modified);
-Preparado (staged/index)
-Consolidado (comitted);
-Ajuda
+#### Instalação dependências webpack de acordo com as versões utilizadas no curso
+```sh
+$ npm i --save-dev babel-core@6.22.1 babel-loader@6.2.10 babel-preset-es2015@6.22.0
+$ npm i --save-dev babel-plugin-transform-object-rest-spread@6.22.0
+```
 
-Geral
 
-git help
-Comando específico
+### Configurações Gerais
 
-git help add
-git help commit
-git help <qualquer_comando_git>
-Configuração
-
-Geral
-
-As configurações do GIT são armazenadas no arquivo .gitconfig localizado dentro do diretório do usuário do Sistema Operacional (Ex.: Windows: C:\Users\Documents and Settings\Leonardo ou *nix /home/leonardo).
-
+#### Criar o arquivo package.json:
 As configurações realizadas através dos comandos abaixo serão incluídas no arquivo citado acima.
+```sh
+$ npm init -y
+```
 
-Setar usuário
 
-git config --global user.name "Leonardo Comelli"
-Setar email
+#### Dependências React e Babel
+```sh
+$ npm install --save-dev react@15.4.2 react-dom@15.4.2 babel-core@6.22.1 babel-loader@6.2.10 babel-preset-es2015@6.22.0 babel-preset-react@6.22.0 webpack@1.14.0 webpack-dev-server@1.16.2
+```
 
-git config --global user.email leonardo@software-ltda.com.br
-Setar editor
