@@ -1,7 +1,7 @@
-Curso React Redux
+# Curso React Redux
 ===================
 
-anotações:
+## Anotações:
 ----------
 
  * Instalações das dependências de webpack e react
