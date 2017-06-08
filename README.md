@@ -23,7 +23,6 @@ $ npm i --save-dev webpack@1.14.0 webpack-dev-server@1.16.2
 ```sh
 $ ./node_modules/.bin/webpack
 ```
-
 #### Instalação dependências webpack de acordo com as versões utilizadas no curso
 ```sh
 $ npm i --save-dev babel-core@6.22.1 babel-loader@6.2.10 babel-preset-es2015@6.22.0

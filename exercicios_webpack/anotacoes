@@ -1,0 +1,58 @@
+# Instalar
+npm i --save-dev webpack@1.14.0 webpack-dev-server@1.16.2 
+
+# Script
+"dev": "webpack-dev-server --progress --colors --inline --hot"
+# --progress => mostrar o progresso
+# --colors   => mostrar o progresso colorido
+# --inline   => atualizar sempre que alterar
+# --hot"     => atualizar sempre que alterar refresh no browser
+
+# Usando sistema de módulos:
+
+
+# Gerar o arquivo bundle
+./node_modules/.bin/webpack
+
+# Para entender "import e exmport" acrescentar o babbel no webpack.config.js:
+        module: {
+          loaders: [{
+            test: /.js?$/,
+            loader: 'babel-loader',
+            exclude: /node_modules/,
+            query: {
+              presets: ['es2015']
+            }
+          }]
+        }
+
+e baixar as dependências: 
+npm i --save-dev babel-core@6.22.1 babel-loader@6.2.10 babel-preset-es2015@6.22.0
+
+# Para reconhecer o operador spread, fazer o seguinte:
+     plugins: ['transform-object-rest-spread']
+
+     mmudando para : 
+     module: {
+          loaders: [{
+            test: /.js?$/,
+            loader: 'babel-loader',
+            exclude: /node_modules/,
+            query: {
+              presets: ['es2015'],
+              plugins: ['transform-object-rest-spread']
+            }
+          }]
+        }
+
+e instalar:
+npm i --save-dev babel-plugin-transform-object-rest-spread@6.22.0
+
+
+# Adicionando o Preset no React
+npm i --save-dev react@15.4.2
+npm i --save-dev babel-preset-react@6.22.0
+
+# CSS, como configurar: adicionando o loader p/ CSS
+npm i --save-dev extract-text-webpack-plugin@1.0.1 style-loader@0.13.1 css-loader@0.26.1
+
