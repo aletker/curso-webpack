@@ -1,8 +1,6 @@
 # Curso React Redux
-===================
 
 ## Anotações:
-----------
 
  * Instalações das dependências de webpack e react
  * Execuções e procedimenttos
@@ -10,10 +8,9 @@
 
 Anotações referentes ao urso de react e redux da udemy
 
-
- * webpack
- * react
- * redux
+ - webpack
+ - react
+ - redux
 
 #### <i class="icon-file"></i> Configurações Dependências
 
