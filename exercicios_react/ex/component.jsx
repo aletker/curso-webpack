@@ -1,5 +1,7 @@
 import React from 'react'
 
-export default function() {
-    return <h1>Primeiro Componente React!</h1>
-}
+export default () => (
+    <h1>Primeiro Componente React!</h1>
+    // ***Obs {} é o corpo do método
+    // () aqui neste exemplo é o escopo da expressão, na arrow function o return é implícito
+)
