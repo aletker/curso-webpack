@@ -47,7 +47,8 @@ $ npm install --save-dev react@15.4.2 react-dom@15.4.2 babel-core@6.22.1 babel-l
 ## React:
 
  * Tem seu foco na view
- * Gera os componentes das páginas
+ * Gerar os componentes das páginas
  * Tudo no react é componente
+ * framework fortemente baseado em componentes
    
-Um ccomponente porde ser criado no react de duas formas, baseado em função ou baseado em uma classe
+Um componente porde ser criado no react de duas formas, baseado em função ou baseado em uma classe
