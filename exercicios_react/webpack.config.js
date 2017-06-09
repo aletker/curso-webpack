@@ -17,6 +17,9 @@ module.exports = {
     //    new ExtractTextPlugin('app.css')
     // ],
     // O loader de js foi adicionado no ex.6
+    resolve: {
+        extensions: ['','.js', '.jsx']
+    },
     module: {
         loaders: [{
             test: /.jsx?$/,
